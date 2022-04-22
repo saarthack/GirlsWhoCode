@@ -169,3 +169,61 @@ body {
     position: relative;
     transform: rotate(140deg);
 }
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#page2-left{
+    height: 100vh;
+    width: 65vw;
+    background-color: orange;
+    
+}
+#page2-right{
+    overflow: auto;
+    height: 100vh;
+    width: 35vw;
+    background-color: red;
+}
+#page2-right::-webkit-scrollbar{
+    display: none;
+}
+#page2-left h1{
+   
+    font-family: Vanguard CF;
+    font-size: 18vw;  
+}
+#page2-text1{
+    white-space: nowrap;
+    display: inline-block;
+    overflow: auto;
+    width: 65vw;
+}
+#page2-text1::-webkit-scrollbar{
+    display: none;
+}
+#page2-text2{
+    width: 40vw;
+    font-weight: 200;
+    margin-top: 30vh;
+    margin-left: 5vw;
+}
+#right-txt{
+    font-family: Vanguard CF;   
+    
+}
+#page2-right-feed{
+    height: 300vh;
+    width: 35vw;
+    background-color: purple;
+}
+.news-img{
+    margin-top: 10vh;
+    height: 50vh;
+    width: 80vw;
+    background-color:yellow;
+}
