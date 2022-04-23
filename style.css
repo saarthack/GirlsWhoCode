@@ -101,6 +101,7 @@ body {
 #landingpage {
     height: 100vh;
     width: 100vw;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,7 +160,6 @@ body {
 
 #bottomleft h4 span {
     color: rgb(255, 18, 69);
-
 }
 
 #arrow {
