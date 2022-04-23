@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Girls Who Code</title>
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -26,7 +27,7 @@
             <div id="navpart2">
                 <a href="#"><i class="ri-menu-fill"></i></a>
             </div>
-        </div>      
+        </div>
         <div id="landingpage">
             <h1 id="line1">The</h1>
             <h1 id="line2">Girls,</h1>
@@ -41,26 +42,60 @@
             </div>
         </div>
         <!-- This is page 2 (For Akarsh) -->
-            <!-- Hello This is Akarsh -->
         <div id="page2">
             <div id="page2-left">
-                <h1 id="page2-text1">Shery Girls who Code</h1>
-                <h2 id="page2-text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo repellat amet numquam blanditiis aliquam eveniet magnam rem reprehenderit, omnis, sunt adipisci autem cupiditate laboriosam animi incidunt quasi voluptatem ut quia?</h2>
+                <h1 id="page2-left-text">Shery Girls Who Code, Create, Develop</h1>
+                <p id="page2-left-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias id cumque magnam
+                    mollitia? Cupiditate sint officiis nihil. Velit aut enim natus provident atque ipsam voluptatibus
+                    illum voluptatum quia, ducimus maiores?</p>
             </div>
             <div id="page2-right">
-                <div id="page2-right-feed">
-                     <h1 id="right-txt">Recent News</h1>
-
-                     <div class="news-img"></div>
-                     <div class="news-img"></div>
-                     <div class="news-img"></div>
-                     <div class="news-img"></div>
-                     <div class="news-img"></div>
+                <div class="card" id="card1">
+                    <h3>Recent activity</h3>
+                    <div class="card-img" id="card-img1"></div>
+                    <p id="card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut et veniam aliquam!</p>
                 </div>
-               
+                <div class="card" id="card1">
+                    <h3>Recent activity</h3>
+                    <div class="card-img" id="card-img1"></div>
+                    <p id="card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut et veniam aliquam!</p>
+                </div>
+                <div class="card" id="card1">
+                    <h3>Recent activity</h3>
+                    <div class="card-img" id="card-img1"></div>
+                    <p id="card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut et veniam aliquam!</p>
+                </div>
+            </div>
+        </div>
+        <div id="page5">
+            <!-- ye aap bana do our team vala -->
+            <div id="page5part1">
+                <h1 id="page5heading">Our<br>Team</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem minus dolorem quis voluptatibus
+                    fugiat reprehenderit veniam distinctio, provident recusandae porro. </p>
+            </div>
+            <div id="page5part2">
+                <div id="page5part2div">
+                    <h1 id="bottom-arrow"><i class="ri-arrow-right-down-line"></i></h1>
+                    <p>&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores accusamus
+                        praesentium eaque assumenda exercitationem, sapiente numquam unde liber autem velit cupiditate?
+                    </p>
+                </div>
+                <div id="part5img">
+                    <img src="https://images.unsplash.com/photo-1573165662973-4ab3cf3d3508?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80"
+                        alt="">
+                </div>
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script>
+        const scroller = new LocomotiveScroll({
+            el: document.querySelector("#main"),
+            smooth: true
+        });
+
+    </script>
 </body>
 
 </html>
