@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.12,
-* Autoprefixer: v10.4.4
-* Browsers: last 4 version
-*/
-
 @font-face {
     src: url("fonts/Gilroy-Medium.otf");
     font-family: "gilroy";
@@ -13,6 +6,11 @@
 @font-face {
     src: url("fonts/Vanguard_CF.ttf");
     font-family: "Vanguard CF";
+}
+
+@font-face {
+    src: url("fonts/DeliriumNcv-Vm5e.ttf");
+    font-family: "DELIRIUM NCV";
 }
 
 @font-face {
